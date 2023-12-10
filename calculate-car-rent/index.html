@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rental Cost Calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200 flex justify-center items-center h-screen">
+  <div class="text-center bg-white py-16 px-10 rounded-lg shadow-md border border-blue-500">
+    <h1 class="text-4xl mb-4">Rental Cost Calculator</h1>
+    <div class="mb-4">
+      <label for="daysInput" class="mr-2">Number of days:</label>
+      <input type="number" id="daysInput" class="border p-2 rounded">
+    </div>
+    <div class="mb-4">
+      <label for="carType" class="mr-2">Select car type:</label>
+      <select id="carType" class="border p-2 rounded">
+        <option value="economy">Economy</option>
+        <option value="midsize">Midsize</option>
+        <option value="luxury">Luxury</option>
+      </select>
+    </div>
+    <button id="calculateBtn" class="bg-blue-500 text-white px-4 py-2 rounded">Calculate</button>
+    <p id="totalCost" class="text-lg mt-4"></p>
+  </div>
+
+  <script src="script.js"></script> 
+</body>
+</html>
