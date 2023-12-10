@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculate Discount Percentage</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200 flex justify-center items-center h-screen">
+  <div class="text-center">
+    <h1 class="text-4xl mb-4">Calculate Discount Percentage</h1>
+    <div class="mb-4">
+      <label for="originalPrice" class="mr-2">Original Price:</label>
+      <input type="number" id="originalPrice" class="border p-2 rounded">
+    </div>
+    <div class="mb-4">
+      <label for="discountedPrice" class="mr-2">Discounted Price:</label>
+      <input type="number" id="discountedPrice" class="border p-2 rounded">
+    </div>
+    <button id="calculateBtn" class="bg-blue-500 text-white px-4 py-2 rounded">Calculate Discount Percentage</button>
+    <p id="discountPercentage" class="text-lg mt-4"></p>
+  </div>
+
+  <script src="script.js"></script> 
+</body>
+</html>
