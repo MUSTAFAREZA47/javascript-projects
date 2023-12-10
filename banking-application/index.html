@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Banking Application</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200">
+  <div class="container mx-auto p-8">
+    <h1 class="text-4xl mb-6 text-center">Banking Application</h1>
+    <div class="flex justify-center">
+      <div class="w-auto bg-white py-16 px-10 rounded-lg shadow-md border border-blue-500">
+        <h2 class="text-2xl mb-4">Customer Account</h2>
+        <p id="accountDetails" class="mb-4"></p>
+        <div class="flex items-center justify-between mb-4">
+          <input type="number" id="amount" placeholder="Enter amount" class="border p-2 rounded mr-2 w-40">
+          <button id="depositBtn" class="bg-blue-500 text-white px-4 py-2 rounded mr-2">Deposit</button>
+          <button id="withdrawBtn" class="bg-red-500 text-white px-4 py-2 rounded">Withdraw</button>
+        </div>
+        <p id="transactionMessage" class="text-green-500"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
