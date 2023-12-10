@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Mixer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200 flex justify-center items-center h-screen">
+  <div class="text-center">
+    <h1 class="text-4xl mb-4">Color Mixer</h1>
+    <div class="mb-4">
+      <input type="text" id="color1" placeholder="Enter color 1" class="border p-2 rounded">
+    </div>
+    <div class="mb-4">
+      <input type="text" id="color2" placeholder="Enter color 2" class="border p-2 rounded">
+    </div>
+    <button id="mixColorsBtn" class="bg-blue-500 text-white px-4 py-2 rounded">Mix Colors</button>
+    <p id="result" class="text-lg mt-4"></p>
+    <p class="font-light text-slate-50 mt-4">Hint: Use combination of two colors from { red, blue, yellow }</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
